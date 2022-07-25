@@ -2,9 +2,10 @@ package virtualbankaccount
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/virtualbankaccount"
 	"net/url"
+
+	"github.com/lucabit73/chargebee-go"
+	"github.com/lucabit73/chargebee-go/models/virtualbankaccount"
 )
 
 func CreateUsingPermanentToken(params *virtualbankaccount.CreateUsingPermanentTokenRequestParams) chargebee.RequestObj {

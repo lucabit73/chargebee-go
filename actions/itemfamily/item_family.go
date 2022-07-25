@@ -2,9 +2,10 @@ package itemfamily
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/itemfamily"
 	"net/url"
+
+	"github.com/lucabit73/chargebee-go"
+	"github.com/lucabit73/chargebee-go/models/itemfamily"
 )
 
 func Create(params *itemfamily.CreateRequestParams) chargebee.RequestObj {

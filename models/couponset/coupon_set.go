@@ -2,7 +2,8 @@ package couponset
 
 import (
 	"encoding/json"
-	"github.com/chargebee/chargebee-go/filter"
+
+	"github.com/lucabit73/chargebee-go/filter"
 )
 
 type CouponSet struct {

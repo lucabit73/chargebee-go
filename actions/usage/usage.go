@@ -2,9 +2,10 @@ package usage
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/usage"
 	"net/url"
+
+	"github.com/lucabit73/chargebee-go"
+	"github.com/lucabit73/chargebee-go/models/usage"
 )
 
 func Create(id string, params *usage.CreateRequestParams) chargebee.RequestObj {

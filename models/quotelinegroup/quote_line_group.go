@@ -1,8 +1,8 @@
 package quotelinegroup
 
 import (
-	"github.com/chargebee/chargebee-go/enum"
-	quoteLineGroupEnum "github.com/chargebee/chargebee-go/models/quotelinegroup/enum"
+	"github.com/lucabit73/chargebee-go/enum"
+	quoteLineGroupEnum "github.com/lucabit73/chargebee-go/models/quotelinegroup/enum"
 )
 
 type QuoteLineGroup struct {

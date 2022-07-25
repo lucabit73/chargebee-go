@@ -3,7 +3,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/chargebee/chargebee-go"
+	"github.com/lucabit73/chargebee-go"
 	"github.com/stretchr/testify/assert"
 )
 

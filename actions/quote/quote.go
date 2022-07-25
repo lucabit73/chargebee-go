@@ -2,9 +2,10 @@ package quote
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/quote"
 	"net/url"
+
+	"github.com/lucabit73/chargebee-go"
+	"github.com/lucabit73/chargebee-go/models/quote"
 )
 
 func Retrieve(id string) chargebee.RequestObj {

@@ -2,8 +2,9 @@ package purchase
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/purchase"
+
+	"github.com/lucabit73/chargebee-go"
+	"github.com/lucabit73/chargebee-go/models/purchase"
 )
 
 func Create(params *purchase.CreateRequestParams) chargebee.RequestObj {

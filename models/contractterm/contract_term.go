@@ -1,7 +1,7 @@
 package contractterm
 
 import (
-	contractTermEnum "github.com/chargebee/chargebee-go/models/contractterm/enum"
+	contractTermEnum "github.com/lucabit73/chargebee-go/models/contractterm/enum"
 )
 
 type ContractTerm struct {

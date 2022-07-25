@@ -2,9 +2,10 @@ package portalsession
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/portalsession"
 	"net/url"
+
+	"github.com/lucabit73/chargebee-go"
+	"github.com/lucabit73/chargebee-go/models/portalsession"
 )
 
 func Create(params *portalsession.CreateRequestParams) chargebee.RequestObj {

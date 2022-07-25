@@ -1,8 +1,8 @@
 package creditnoteestimate
 
 import (
-	"github.com/chargebee/chargebee-go/enum"
-	creditNoteEstimateEnum "github.com/chargebee/chargebee-go/models/creditnoteestimate/enum"
+	"github.com/lucabit73/chargebee-go/enum"
+	creditNoteEstimateEnum "github.com/lucabit73/chargebee-go/models/creditnoteestimate/enum"
 )
 
 type CreditNoteEstimate struct {

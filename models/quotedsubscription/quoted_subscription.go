@@ -1,8 +1,8 @@
 package quotedsubscription
 
 import (
-	"github.com/chargebee/chargebee-go/enum"
-	quotedSubscriptionEnum "github.com/chargebee/chargebee-go/models/quotedsubscription/enum"
+	"github.com/lucabit73/chargebee-go/enum"
+	quotedSubscriptionEnum "github.com/lucabit73/chargebee-go/models/quotedsubscription/enum"
 )
 
 type QuotedSubscription struct {

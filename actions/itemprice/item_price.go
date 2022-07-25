@@ -2,9 +2,10 @@ package itemprice
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/itemprice"
 	"net/url"
+
+	"github.com/lucabit73/chargebee-go"
+	"github.com/lucabit73/chargebee-go/models/itemprice"
 )
 
 func Create(params *itemprice.CreateRequestParams) chargebee.RequestObj {

@@ -2,8 +2,9 @@ package address
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/address"
+
+	"github.com/lucabit73/chargebee-go"
+	"github.com/lucabit73/chargebee-go/models/address"
 )
 
 func Retrieve(params *address.RetrieveRequestParams) chargebee.RequestObj {

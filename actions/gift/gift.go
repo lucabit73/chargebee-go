@@ -2,9 +2,10 @@ package gift
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/gift"
 	"net/url"
+
+	"github.com/lucabit73/chargebee-go"
+	"github.com/lucabit73/chargebee-go/models/gift"
 )
 
 func Create(params *gift.CreateRequestParams) chargebee.RequestObj {

@@ -1,7 +1,7 @@
 package address
 
 import (
-	"github.com/chargebee/chargebee-go/enum"
+	"github.com/lucabit73/chargebee-go/enum"
 )
 
 type Address struct {

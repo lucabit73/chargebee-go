@@ -2,11 +2,12 @@ package subscription
 
 import (
 	"encoding/json"
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/filter"
-	paymentIntentEnum "github.com/chargebee/chargebee-go/models/paymentintent/enum"
-	contractTermEnum "github.com/chargebee/chargebee-go/models/contractterm/enum"
-	subscriptionEnum "github.com/chargebee/chargebee-go/models/subscription/enum"
+
+	"github.com/lucabit73/chargebee-go/enum"
+	"github.com/lucabit73/chargebee-go/filter"
+	contractTermEnum "github.com/lucabit73/chargebee-go/models/contractterm/enum"
+	paymentIntentEnum "github.com/lucabit73/chargebee-go/models/paymentintent/enum"
+	subscriptionEnum "github.com/lucabit73/chargebee-go/models/subscription/enum"
 )
 
 type Subscription struct {

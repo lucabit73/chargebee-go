@@ -2,9 +2,10 @@ package differentialprice
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/differentialprice"
 	"net/url"
+
+	"github.com/lucabit73/chargebee-go"
+	"github.com/lucabit73/chargebee-go/models/differentialprice"
 )
 
 func Create(id string, params *differentialprice.CreateRequestParams) chargebee.RequestObj {

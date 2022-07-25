@@ -2,9 +2,10 @@ package coupon
 
 import (
 	"encoding/json"
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/filter"
-	couponEnum "github.com/chargebee/chargebee-go/models/coupon/enum"
+
+	"github.com/lucabit73/chargebee-go/enum"
+	"github.com/lucabit73/chargebee-go/filter"
+	couponEnum "github.com/lucabit73/chargebee-go/models/coupon/enum"
 )
 
 type Coupon struct {

@@ -2,9 +2,10 @@ package invoice
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/invoice"
 	"net/url"
+
+	"github.com/lucabit73/chargebee-go"
+	"github.com/lucabit73/chargebee-go/models/invoice"
 )
 
 func Create(params *invoice.CreateRequestParams) chargebee.RequestObj {

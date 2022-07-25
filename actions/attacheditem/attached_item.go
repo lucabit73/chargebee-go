@@ -2,9 +2,10 @@ package attacheditem
 
 import (
 	"fmt"
-	"github.com/chargebee/chargebee-go"
-	"github.com/chargebee/chargebee-go/models/attacheditem"
 	"net/url"
+
+	"github.com/lucabit73/chargebee-go"
+	"github.com/lucabit73/chargebee-go/models/attacheditem"
 )
 
 func Create(id string, params *attacheditem.CreateRequestParams) chargebee.RequestObj {

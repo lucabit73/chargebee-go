@@ -2,8 +2,9 @@ package differentialprice
 
 import (
 	"encoding/json"
-	"github.com/chargebee/chargebee-go/filter"
-	differentialPriceEnum "github.com/chargebee/chargebee-go/models/differentialprice/enum"
+
+	"github.com/lucabit73/chargebee-go/filter"
+	differentialPriceEnum "github.com/lucabit73/chargebee-go/models/differentialprice/enum"
 )
 
 type DifferentialPrice struct {

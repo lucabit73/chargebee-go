@@ -2,9 +2,10 @@ package itemprice
 
 import (
 	"encoding/json"
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/filter"
-	itemPriceEnum "github.com/chargebee/chargebee-go/models/itemprice/enum"
+
+	"github.com/lucabit73/chargebee-go/enum"
+	"github.com/lucabit73/chargebee-go/filter"
+	itemPriceEnum "github.com/lucabit73/chargebee-go/models/itemprice/enum"
 )
 
 type ItemPrice struct {

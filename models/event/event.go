@@ -2,9 +2,10 @@ package event
 
 import (
 	"encoding/json"
-	"github.com/chargebee/chargebee-go/enum"
-	"github.com/chargebee/chargebee-go/filter"
-	eventEnum "github.com/chargebee/chargebee-go/models/event/enum"
+
+	"github.com/lucabit73/chargebee-go/enum"
+	"github.com/lucabit73/chargebee-go/filter"
+	eventEnum "github.com/lucabit73/chargebee-go/models/event/enum"
 )
 
 type Event struct {

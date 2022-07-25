@@ -364,6 +364,7 @@ type CheckoutNewForItemsRequestParams struct {
 	BillingAddress             *CheckoutNewForItemsBillingAddressParams     `json:"billing_address,omitempty"`
 	ShippingAddress            *CheckoutNewForItemsShippingAddressParams    `json:"shipping_address,omitempty"`
 	ContractTerm               *CheckoutNewForItemsContractTermParams       `json:"contract_term,omitempty"`
+	Layout                     hostedPageEnum.Layout                        `json:"layout,omitempty"`
 }
 type CheckoutNewForItemsSubscriptionParams struct {
 	Id                                string                    `json:"id,omitempty"`
